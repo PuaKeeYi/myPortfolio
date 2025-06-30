@@ -12,8 +12,15 @@ html, body {
 }
 
 .container {
+  width: 90vw;
+  max-width: 1200px;
   display: flex;
-  gap: 4rem;
+  flex-wrap: wrap; /* ✅ allow wrapping */
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
 }
 
 .about-page {

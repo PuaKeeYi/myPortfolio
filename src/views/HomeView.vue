@@ -52,12 +52,15 @@ function copyToClipboard() {
 
 <style scoped>
 .home {
-  height: 100vh;
-  background: url("/home.webp") center/cover fixed;
+  min-height: 100vh; /* ✅ allow it to grow if needed */
+  background: url("/home.webp") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   color: #fff;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
 }
 .container {
   width: 90vw;              /* Use 90% of the screen width */
