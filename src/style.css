@@ -1,0 +1,39 @@
+/* style.css */
+
+.container {
+  display: flex;
+  gap: 4rem;
+}
+
+.about-page {
+  width: 100%;
+  max-width: 1200px;
+  margin: 6rem auto 3rem;
+  padding: 0 1.5rem;
+  line-height: 1.75;
+  font-size: 1.1rem;
+  font-family: 'Inter', 'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-page {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
