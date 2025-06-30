@@ -1,26 +1,31 @@
 {
   "name": "personal-profile",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "vue": "^3.5.17",
-    "vue-router": "^4.5.1",
-    "pinia": "^3.0.3",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@fortawesome/vue-fontawesome": "^3.0.8"
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@tailwindcss/vite": "^4.1.11",
+    "pinia": "^3.0.3",
+    "tailwindcss": "^4.1.11",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@vue/cli-service": "^5.0.0",
-    "gh-pages": "^6.3.0"
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vitejs/plugin-vue-jsx": "^5.0.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^7.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7"
   }
 }
-
