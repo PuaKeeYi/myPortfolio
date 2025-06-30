@@ -21,19 +21,19 @@ const projects = [
   {
     title: 'Coral Bleaching Classifier',
     desc: 'CNN deep learning model that detects coral health from underwater images.',
-    image: '/img/coral image.jpg',
+    image: './img/coral image.jpg',
     link: 'https://github.com/PuaKeeYi/Deep-learning-on-coral-classification'
   },
   {
     title: 'Airport Simulation',
     desc: 'Concurrent Java simulation featuring the operations of an airport, including flight arrivals, departures, and passenger processing.',
-    image: '/img/airport simulation.png',
+    image: './img/airport simulation.png',
     link: 'https://github.com/PuaKeeYi/airport_simulation'
   },
   {
     title: 'Giant Bike sales drop analysis',
     desc: 'Data analysis project using Python to explore sales trends and identify factors affecting Giant Bike sales drop at specific year',
-    image: '/img/giant bike.png',
+    image: './img/giant bike.png',
     link: 'https://github.com/PuaKeeYi/GiantBike_Analysis'
   }
 ]

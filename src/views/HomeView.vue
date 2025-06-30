@@ -60,14 +60,14 @@ function copyToClipboard() {
   color: #fff;
 }
 .container {
-  width: 80vw; /* 80% of the viewport width */
-  max-width: 1200px; /* Optional: prevent it from getting too big */
+  width: 90vw;              /* Use 90% of the screen width */
+  max-width: 1200px;        /* Limit size on big screens */
   display: flex;
   align-items: center;
-  justify-content: center; /* if you want content inside also centered */
-  gap: 4rem;
-  padding: 2rem;
-  max-width: 3000px; 
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  flex-wrap: wrap;          /* ✅ Important for mobile wrapping */
 }
 .profile {
   display: flex;
