@@ -1,5 +1,16 @@
 /* style.css */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Inter', 'Poppins', sans-serif;
+}
+
 .container {
   display: flex;
   gap: 4rem;
